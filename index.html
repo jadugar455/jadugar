@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JaduGar's Profile</title>
+    <style>
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background: url('https://i.imgur.com/6LNkFtX.jpeg') no-repeat center center/cover;
+            background-size: cover;
+            background-attachment: fixed;
+            padding: 50px;
+            color: white;
+            animation: fadeIn 1s ease-in-out;
+            cursor: url('https://cur.cursors-4u.net/games/gam-1/gam99.ani'), auto;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .container {
+            background: rgba(20, 20, 20, 0.85);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+            max-width: 450px;
+            margin: auto;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .container:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+        }
+        img {
+            width: 140px;
+            border-radius: 50%;
+            border: 5px solid #00ffff;
+            box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
+        }
+        h1 {
+            color: #ffcc00;
+            font-size: 30px;
+            margin-top: 15px;
+            font-weight: bold;
+            text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00;
+            animation: glitch 1s infinite;
+        }
+        @keyframes glitch {
+            0% { text-shadow: 2px 2px 5px #ffcc00; }
+            50% { text-shadow: -2px -2px 5px #ff6600; }
+            100% { text-shadow: 2px 2px 5px #ffcc00; }
+        }
+        p {
+            color: #ffffff;
+            font-family: 'Courier New', monospace;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .quote {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #ffdd57;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 221, 87, 0.5);
+            font-family: 'Georgia', serif;
+            animation: flicker 1.5s infinite alternate;
+        }
+        @keyframes flicker {
+            0% { opacity: 1; }
+            50% { opacity: 0.8; }
+            100% { opacity: 1; }
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin: 12px auto;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #ff512f, #dd2476);
+            padding: 15px 30px;
+            border-radius: 50px;
+            transition: all 0.3s ease-in-out;
+            width: 250px;
+            box-shadow: 0 8px 20px rgba(255, 81, 47, 0.5);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .social-links a i {
+            font-size: 24px;
+        }
+        .social-links a:hover {
+            background: linear-gradient(135deg, #dd2476, #ff512f);
+            transform: scale(1.15) rotate(2deg);
+            box-shadow: 0 10px 25px rgba(255, 81, 47, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.imgur.com/VpkTogp.png" alt="Profile Picture">
+        <h1>It's JaduGar</h1>
+        <p>Hello People also know me by <strong style='color:#ff5733;'>Akay</strong> [mostly by friends] and <strong style='color:#ff3333;'>Merabaap</strong> [by Enemies].<br>
+           I always do what I love which is <strong style='color:#33ff57;'>Gaming</strong>.<br>
+           Am I best in it? <span style='color:#ff6600;'>No, of course not.</span><br>
+           Will I ever be? <span style='color:#33ccff;'>Yes, of course :)</span>
+        </p>
+        <div class="quote">🔥 "We don't pray for love, we just pray for cars!" 🏎️</div>
+        <div class="social-links">
+            <a href="https://www.instagram.com/ig_jadugarop/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://discord.gg/4CBcTyj6BQ" target="_blank"><i class="fab fa-discord"></i> Discord</a>
+            <a href="https://www.youtube.com/@chintubadmosh321" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+        </div>
+    </div>
+</body>
+</html>
